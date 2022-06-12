@@ -1,0 +1,238 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik Glitch', cursive;
+}
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("124.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;	
+}
+nav img{
+	width: 64px;
+	
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	
+}
+.nav-links ul li a{
+	color:#b96ed7;
+	text-decoration: none;
+	font-size: 13px;
+	
+}
+
+.nav-links ul li ::after{
+	
+	content: '';
+	width: 0%;
+	height: 1px;
+	background: #f2c681;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+	width: 50%;
+}
+.text-box{
+	width: 90%;
+	color: #f8f2c2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	
+	
+}
+.text-box{
+	font-size: 62px;
+	
+	
+}
+.text-box{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color:  #f8f2c2;
+	
+}
+.text-box p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	
+}
+.dota2-page{
+	display: inline-block;
+	text-decoration: none;
+	color: #fdc45a;
+	border: 1px solid #fdc45a;
+	padding: 12px 30px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.dota2-page:hover{
+	border: 1px solid #000000;
+	background: #ffe4ba;
+	transition: 1s;
+}
+/*-------Type of attribute in dota 2-------*/
+.attribute{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("dota  (3).jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;	
+}
+.attribute h1{
+	color: #a6a6a6;
+}
+h1{
+	font-family: 'skranji',cursive;
+	font-size: 36px;
+	font-weight: 600;
+}
+h3{
+    font-family: 'skranji',cursive;
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+	
+}
+p{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.course-col{
+	flex-basis: 31%;
+	background: transparent;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.course-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,1);
+}
+.course-col p{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+/*--------Hero line up--------*/
+
+.lineup{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("bg-lineup.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	
+	
+}
+.lineup h1{
+	color:  #d8adfc;
+    font-family: 'skranji',cursive;
+}
+
+.lineup p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";/*'Black Ops One', cursive;*/
+}
+
+.lineup-col{
+	flex-basis: 32%;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+	left:1.5%;
+}
+.lineup-col img{
+	
+	width: 90%;
+	display: block;
+	border-radius: 25%;
+	object-fit:cover;
+}
+.Layer{
+	background: transparent;
+	height: 100%;
+	width: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+	border-radius: 25%;
+	
+}
+.Layer:hover{
+	background: rgba(23, 11, 17, 0.69);
+}
+.Layer h3{
+	width: 100%;
+	font-weight: 500;
+	color: #fff;
+	font-size: 26px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+	
+	
+}
+.Layer:hover h3{
+	bottom:40%;
+	opacity: 1;
+	cursor: pointer;
+	
+}
+.Layer h3 a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Audiowide', cursive;
+}
